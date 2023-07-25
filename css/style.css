@@ -1,3 +1,13 @@
+.btn-primary {
+    background: rgb(255, 164, 48);
+    background: linear-gradient(90deg, rgba(255, 164, 48, 1) 33%, rgba(255, 164, 48, 0.6643032212885154) 100%);
+    border: 1px solid rgb(255, 164, 48);
+}
+
+.btn-primary:hover {
+    border: 1px solid rgb(255, 164, 48);
+}
+
 .navbar-brand img{
     width: 150px;
     height: 80px;
@@ -12,15 +22,71 @@
     width: 30px;
     height: 7px;
     padding: 0;
-    
-    background-color: #ffc107 !important;
-   
+    background: rgb(255, 164, 48);
+    background: linear-gradient(90deg, rgba(255, 164, 48, 1) 33%, rgba(255, 164, 48, 0.6643032212885154) 100%);
     border: 0;
     border-radius: 5px;
-
 }
 .carousel-indicators .active{
     width: 50px;
 
+
+}
+/* smart phone */
+.phone-see-all {
+    text-decoration: none;
+    color: rgb(255, 164, 48);
+
+}
+
+.card {
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.card:hover {
+    box-shadow: rgba(104, 103, 103, 0.16) 0px 3px 6px, rgba(127, 125, 125, 0.23) 0px 3px 6px;
+}
+
+/* category */
+.category span {
+    display: block;
+    height: 5px;
+    width: 120px;
+    border-radius: 5px;
+    background: rgb(255, 164, 48);
+    margin: auto;
+
+}
+
+/* categroy .category-box {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 25px;
+} */
+
+
+.color{
+    background-color: #1d4774;
+
+}
+footer li {
+    list-style: none;
+}
+
+footer li h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+footer li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 0;
+    text-align: center;
+}
+footer li a:hover {
+    color: rgb(255, 164, 48);
 
 }
